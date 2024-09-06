@@ -1,0 +1,28 @@
+{
+  "name": "richie-rich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore swagger_output.json src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.10.1",
+    "node-cron": "^3.0.3",
+    "path": "^0.12.7",
+    "sleep-promise": "^9.1.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
